@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2013 The NexusROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="non_intrusive_incall_title">Non intrusive</string>
+    <string name="non_intrusive_incall_summary">Use non intrusive dialog for incoming calls</string>
+
+    <string name="call_end_sound_title">呼叫结束音</string>
+    <string name="call_end_sound_summary">声音提示通话结束</string>
+
+    <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
+    <string name="mwi_notification_title">信息等待指示器</string>
+    <string name="mwi_notification_summary">显示信息等待指示器语音信箱提醒</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Flip action</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Flip device to\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">do nothing</string>
+    <string name="entry_mute_ringer">静音</string>
+    <string name="entry_dismiss_call">Dismiss call</string>
+    <string name="summary_do_nothing">do nothing</string>
+    <string name="summary_mute_ringer">mute the ringer</string>
+    <string name="summary_dismiss_call">dismiss the call</string>
+
+    <!-- Integrated phone directory -->
+    <string name="enable_suggestions_title">建议启用</string>
+    <string name="enable_suggestions_summary">在拨号时显示附近地点的电话号码</string>
+    <string name="enable_reverse_lookup_title">启用反向查找</string>
+    <string name="enable_reverse_lookup_summary">Look up names on incoming calls when number is not in phone book</string>
+
+    <string name="advanced_setting">高级</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名单</string>
+    <string name="blacklist_summary_disabled">禁用</string>
+    <string name="blacklist_summary">阻挡黑名单中电话号码的来电</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_call_notification">阻挡了 %s 的来电</string>
+    <string name="blacklist_call_notification_private_number">阻挡了一个私人号码的来电</string>
+    <string name="blacklist_call_notification_unknown_number">阻挡了未知号码 %s</string>
+    <string name="blacklist_call_notification_multiple"><xliff:g id="count">%d</xliff:g> 个来电被阻挡</string>
+    <string name="blacklist_message_notification">来自于 %s 的信息已被阻止</string>
+    <string name="blacklist_message_notification_private_number">阻止来自于私人号码的信息</string>
+    <string name="blacklist_message_notification_unknown_number">来自于未知号码 %s 的信息已阻止</string>
+    <string name="blacklist_message_notification_multiple">已阻止<xliff:g id="count">%d</xliff:g> 条信息</string>
+    <string name="blacklist_notification_list_private">私人号码</string>
+    <string name="unblock_number">不阻挡号码</string>
+
+    <!-- In-call vibration --> 
+    <string name="incall_vibration">来电震动</string>
+    <string name="vibrate_outgoing">对方接听时震动</string>
+    <string name="vibrate_call_waiting">呼叫等待时震动</string>
+    <string name="vibrate_hangup">通话结束时震动</string>
+    <string name="vibrate_45">每分钟震动</string>
+    <string name="vibrate_45_sum">呼出通话达到每分钟的 45 秒时震动</string>
+</resources>
