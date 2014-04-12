@@ -949,7 +949,7 @@ public class CallNotifier extends Handler
         onCustomRingQueryComplete(c);
     }
 
-    private void onDisconnect(AsyncResult r) {
+    protected void onDisconnect(AsyncResult r) {
         if (VDBG) log("onDisconnect()...  CallManager state: " + mCM.getState());
 
         mVoicePrivacyState = false;
@@ -965,6 +965,10 @@ public class CallNotifier extends Handler
         boolean disconnectedDueToBlacklist = false;
         if (c != null) {
             disconnectedDueToBlacklist = BLACKLIST.equals(c.getUserData());
+            boolean vibHangup = PhoneUtils.PhoneSettings.vibHangup(mApplication);
+            if (!disconnectedDueToBlacklist && vibHangup && c.getDurationMillis() > 0) {
+                vibrate(50, 100, 50);
+            }
         }
 
         int autoretrySetting = 0;
@@ -1178,7 +1182,9 @@ public class CallNotifier extends Handler
 
     private void start45SecondVibration(long callDurationMsec) {
         if (VDBG) Log.v(LOG_TAG, "vibrate start @" + callDurationMsec);
+
         removeMessages(VIBRATE_45_SEC);
+        
         long timer;
         if (callDurationMsec > 45000) {
             // Schedule the alarm at the next minute + 45 secs
