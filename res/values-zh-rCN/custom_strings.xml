@@ -17,8 +17,8 @@
  -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="non_intrusive_incall_title">Non intrusive</string>
-    <string name="non_intrusive_incall_summary">Use non intrusive dialog for incoming calls</string>
+    <string name="non_intrusive_incall_title">来电小窗显示</string>
+    <string name="non_intrusive_incall_summary">当点亮屏幕时使用小窗显示来电信息</string>
 
     <string name="call_end_sound_title">呼叫结束音</string>
     <string name="call_end_sound_summary">声音提示通话结束</string>
@@ -28,27 +28,27 @@
     <string name="mwi_notification_summary">显示信息等待指示器语音信箱提醒</string>
 
     <!-- Setting title for the flip action setting. -->
-    <string name="flip_action_title">Flip action</string>
+    <string name="flip_action_title">翻转手机</string>
 
     <!-- Dialog title of the flip action setting. -->
-    <string name="flip_action_dialog_title">Flip device to\u2026</string>
+    <string name="flip_action_dialog_title">当翻转手机时\u2026</string>
 
     <!-- Setting summary for the flip action setting. -->
-    <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+    <string name="flip_action_summary">翻转手机屏幕朝下时<xliff:g id="action">%s</xliff:g></string>
 
     <!-- Values for flip action array entries -->
-    <string name="entry_do_nothing">do nothing</string>
+    <string name="entry_do_nothing">什么也不做</string>
     <string name="entry_mute_ringer">静音</string>
-    <string name="entry_dismiss_call">Dismiss call</string>
-    <string name="summary_do_nothing">do nothing</string>
-    <string name="summary_mute_ringer">mute the ringer</string>
-    <string name="summary_dismiss_call">dismiss the call</string>
+    <string name="entry_dismiss_call">挂断电话</string>
+    <string name="summary_do_nothing">什么也不做</string>
+    <string name="summary_mute_ringer">静音</string>
+    <string name="summary_dismiss_call">挂断电话</string>
 
     <!-- Integrated phone directory -->
     <string name="enable_suggestions_title">建议启用</string>
     <string name="enable_suggestions_summary">在拨号时显示附近地点的电话号码</string>
     <string name="enable_reverse_lookup_title">启用反向查找</string>
-    <string name="enable_reverse_lookup_summary">Look up names on incoming calls when number is not in phone book</string>
+    <string name="enable_reverse_lookup_summary">优先查找网络电话而不是电话本</string>
 
     <string name="advanced_setting">高级</string>
 
