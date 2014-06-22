@@ -69,7 +69,7 @@
     <string name="blacklist_notification_list_private">Private</string>
     <string name="unblock_number">Unblock</string>
 
-<<<<<<< HEAD
+
     <!-- In-call vibration --> 
     <string name="incall_vibration">In-call vibration</string>
     <string name="vibrate_outgoing">Vibrate on answer</string>
